@@ -1,14 +1,19 @@
-import { Form, FormGroup, Label, Col, Button, Input } from "reactstrap";
+import { Form, FormGroup, Label, Col, Button, Input, FormText } from "reactstrap";
+
 export default function FormComment() {
+    const submitHandler =(event)=>{
+        console.log(event);
+
+    }
     return (
         <>
-            <Form>
+            <Form onSubmit={()=>submitHandler}>
                 <FormGroup row>
                     <Label
                         for="exampleEmail"
                         sm={2}
                     >
-                        Mail(Optional)
+                    <FormText>Your mail</FormText> 
                     </Label>
                     <Col sm={10}>
                         <Input
@@ -20,19 +25,15 @@ export default function FormComment() {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Label
-                        for="Your Name"
-                        sm={2}
-                    >
-                        Your Name
+                <Label sm = {2}>
+                Your name
                     </Label>
                     <Col sm={10}>
                         <Input
-                            required
                             id="name"
                             name="name"
+                            placeholder="Your Name (optional)"
                             type="textarea"
-                            placeholder="Write Your Name"
                         />
                     </Col>
                 </FormGroup>
@@ -54,7 +55,6 @@ export default function FormComment() {
                     </Col>
                 </FormGroup>
                 <FormGroup
-                    check
                     row
                 >
                     <Col
@@ -63,7 +63,7 @@ export default function FormComment() {
                             size: 10
                         }}
                     >
-                        <Button>
+                        <Button >
                             Submit
                         </Button>
                     </Col>
