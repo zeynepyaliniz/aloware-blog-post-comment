@@ -1,0 +1,81 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "parentId": null,
+      "comment": "some comment",
+      "name": "Mustafa",
+      "createdAt": ""
+    },
+    {
+      "id": 7,
+      "parentId": null,
+      "comment": "smith comment",
+      "name": "SMITH",
+      "createdAt": ""
+    },
+    {
+      "id": 2,
+      "parentId": null,
+      "comment": "PARENT",
+      "name": "JHON",
+      "createdAt": ""
+    },
+    {
+      "name": "asd",
+      "comment": "asds",
+      "id": 11,
+      "parentId": null,
+      "createdAt": "2022-12-09T21:00:00.000Z"
+    },
+    {
+      "name": "asd",
+      "comment": "asds",
+      "id": 12,
+      "parentId": null,
+      "createdAt": "2022-12-09T21:00:00.000Z"
+    },
+    {
+      "name": "Dağcı",
+      "comment": "First Comment Here In",
+      "id": 13,
+      "parentId": null,
+      "createdAt": "2022-12-09T21:00:00.000Z"
+    },
+    {
+      "name": "Dağcı",
+      "comment": "First Comment Here In",
+      "id": 14,
+      "parentId": null,
+      "createdAt": "2022-12-09T21:00:00.000Z"
+    },
+    {
+      "name": "Dağcı",
+      "comment": "First Comment Here In",
+      "id": 15,
+      "parentId": null,
+      "createdAt": "2022-12-09T21:00:00.000Z"
+    },
+    {
+      "name": "asa",
+      "comment": "asasa",
+      "id": 16,
+      "parentId": 2,
+      "createdAt": "2022-12-09T21:00:00.000Z"
+    },
+    {
+      "name": "as",
+      "comment": "asa",
+      "id": 17,
+      "parentId": 2,
+      "createdAt": "2022-12-09T21:00:00.000Z"
+    },
+    {
+      "name": "adas",
+      "comment": "ada",
+      "id": 18,
+      "parentId": 3,
+      "createdAt": "2022-03-16T12:06:46.342Z"
+    }
+  ]
+}

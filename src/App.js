@@ -1,13 +1,14 @@
 
 import './App.css';
-import Comment from './components/Comment';
+import Comments from './components/Comments';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <Comment title = "comment title" id = "1"></Comment>
+    <div>
+      <header className = "App-header">
+      <Comments currentCommentId = "1"></Comments>
       </header>
+      
     </div>
   );
 }
